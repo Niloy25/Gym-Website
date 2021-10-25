@@ -1,0 +1,32 @@
+body {
+    font-family: 'Playball', cursive;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background: url('../static/img/Gym-Fitness.jpg') no-repeat center center/cover;
+}
+
+.about-content-heading {
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    color: white;
+    margin: 5px
+}
+
+.aboutInfo {
+    max-width: 60%;
+    margin: auto;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 10px 0px;
+    font-size: 34px;
+}
+

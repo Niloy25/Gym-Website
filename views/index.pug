@@ -1,0 +1,32 @@
+extends base.pug
+block append style
+    style
+         include ../static/style.css
+block append content     
+    div.containerBox
+        h1 Join the best gym in Jyangra.
+        form(action="/", method="POST" id="contactForm")
+            div.form-group
+                input(type="text" name="name" id="yourName" placeholder="Enter your Name")
+        
+            div.form-group
+                input(type="text" name="age" id="yourAge" placeholder="Enter your Age")
+            
+            div.form-group
+                input(type="text" name="gender" id="yourGender" placeholder="Enter your Gender")
+            
+            div.form-group
+                input(type="text" name="address" id="yourAddress" placeholder="Enter your Address")
+            
+            div.form-group
+                input(type="text" name="phone" id="yourPhone" placeholder="Enter your Phone Number")
+            
+            div.form-group
+                input(type="text" name="email" id="yourEmail" placeholder="Enter your Email Address")
+            
+            button(type="submit" class="btnSubmit" id="formSubmit") Submit
+
+
+
+
+            

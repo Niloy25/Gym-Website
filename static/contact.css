@@ -1,0 +1,51 @@
+body {
+    font-family: 'Playball', cursive;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background: url('../static/img/home_article-3.jpg') no-repeat center center/cover;
+    background-color: linear-gradient(to right, white, black);
+}
+.middle{
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+.contact-content-heading {
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.form-box {
+    font-family: var(--font1);
+    margin: 5px;
+    width: 54%;
+}
+
+.contactInfo {
+    display: flex;
+}
+
+.contactInfoAll {
+    width: 100%;
+}
+
+.contactBox {
+    margin: 5px 8px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 13px 10px;
+}
+
+.text {
+    margin: 10px 2px;
+    font-size: 23px;
+    align-self: center;
+}

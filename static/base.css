@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    --font1:'Andada Pro', serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 4px;
+}
+
+.left img {
+    width: 140px;
+}
+
+.left div {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+
+.middle {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(179, 173, 173);
+}
+
+.my-5{
+    margin-top: 50px !important;
+}
+
+#message{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Playball', cursive;
+    font-size: 19px !important;
+    border-radius: 15px !important;
+}
+
+.modal-title{
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin-left: 145px;
+    font-size: 35px !important;
+}
+.newUser{
+    font-family: 'Bebas Neue', cursive;
+}
+.showPage{
+    text-decoration: underline;
+    color: blue;
+}
+.form-label{
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+}
+
+.footer {
+    height: 64px;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'Playball', cursive;
+}
+
+.footer p {
+    margin-bottom: 0px !important;
+}
+
+.footer a {
+    color: white;
+}

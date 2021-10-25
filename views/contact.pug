@@ -1,0 +1,33 @@
+extends base.pug
+block append style
+    style
+         include ../static/contact.css
+block append content  
+    div(class="contact-content max-width-1 m-auto")
+        h1.contact-content-heading Feel Free to Contact Us
+        div.contactInfo
+            div.contactInfoAll
+                div.contactBox
+                    div.box
+                        div.icon
+                            i(class="fa fa-map-marker" style="font-size:36px")
+                        div.text
+                            h3 Address
+                            p Jyangra Mondal Para,Hatiara Road<br/> 
+                              |Baguihati, North 24 Pags<br/> 
+                              |Kol-700159
+
+                    div.box
+                        div(class="icon" style="margin-left: -150px")
+                            i(class="fa fa-phone" style="font-size:36px")
+                        div.text
+                            h3 Phone
+                            p +91 891-079-5656
+        
+                    div.box
+                        div(class="icon" style ="margin-left: -40px")
+                            i(class="fa fa-envelope-o" style="font-size:36px")
+                        div.text
+                            h3 Email
+                            p niloykolkata59@gmail.com
+

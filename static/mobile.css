@@ -1,0 +1,31 @@
+@media screen and (max-width:700px){
+    .left{
+        left: 45%;
+        top: 5px;
+    }
+    .left div{
+        text-decoration: underline;
+    }
+    .middle{
+        width: 100%;
+        margin: 126px auto;
+    }
+    .right{
+        right: 28%;
+        top: 205px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .right{
+        right: 15%;
+        top: 228px;
+    }
+}
+
+@media screen and (max-width:276px){
+    .right{
+        right: 6%;
+        top: 254px;
+    }
+}
